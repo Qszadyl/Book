@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "noImplicitAny": true,//aby się samo zrobiło any
+        "preserveConstEnums": true,//pozwala robić enumy
+        "sourceMap": true,//js gdzie jest bład pliku
+        "target": "ES6",//co celujemy wersja js
+        "downlevelIteration": true,//pewne rzeczy można iterować
+        "lib": ["es6", "dom.iterable"],//
+        "outDir": "dist",//folder wyjsciowy
+        "experimentalDecorators": true,//dekodatory
+        "emitDecoratorMetadata": true,
+        "moduleResolution": "Node"//nie zadziałają typy z niebieską ikonką
+    }
+}
